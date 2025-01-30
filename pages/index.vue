@@ -139,8 +139,8 @@ export default {
             },
             formErrors: {},
             projects: [
-                { id: 1, title: 'Perpus Digital', description: 'A library management system for schools.', image: '/assets/Perpus-Digital.png', link: 'https://smkn4-web.netlify.app/' },
-                { id: 2, title: 'Web Sekolah', description: 'An online platform for school administration.', image: '/assets/Sekolah.png', link: 'https://perpus-digital-zitech.vercel.app/' }
+                { id: 1, title: 'Perpus Digital', description: 'A library management system for schools.', image: '/assets/Perpus-Digital.png', link: 'https://perpus-digital-zitech.vercel.app/' },
+                { id: 2, title: 'Web Sekolah', description: 'An online platform for school administration.', image: '/assets/Sekolah.png', link: 'https://smkn4-web.netlify.app/' }
             ]
         };
     },
