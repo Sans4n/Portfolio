@@ -119,7 +119,7 @@
                 <p class="mb-0">Desain And Enginier by Sansan Nur Azis</p>
             </div>
             <a href="#"
-                class="text-light bg-gradient text-decoration-none d-inline-flex align-items-center rounded-pill px-4 py-2 back-to-top shadow-lg">
+                class="text-dark text-decoration-none d-inline-flex align-items-center rounded-pill px-4 py-2 back-to-top shadow-lg">
                 <i class="bi bi-arrow-up-circle-fill me-2"></i>
                 Back to top
             </a>
@@ -139,7 +139,7 @@ export default {
             },
             formErrors: {},
             projects: [
-                { id: 1, title: 'Perpus Digital', description: 'A library management system for schools.', image: '/assets/Perpus-Digital.png', link: 'https://perpus-digital-zitech.vercel.app/' },
+                { id: 1, title: 'Perpus Digital', description: 'A library management system for schools.', image: '/assets/Perpus.png', link: 'https://perpus-zitech.vercel.app/' },
                 { id: 2, title: 'Web Sekolah', description: 'An online platform for school administration.', image: '/assets/Sekolah.png', link: 'https://smkn4-web.netlify.app/' }
             ]
         };
@@ -223,9 +223,8 @@ header {
 }
 
 .back-to-top {
-    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    background:  #ffffff;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    color: white !important;
     font-weight: bold;
 }
 
